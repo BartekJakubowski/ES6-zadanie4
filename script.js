@@ -1,7 +1,7 @@
 //Zadanie 1
 const x = 'Hello';
 const y = 'World!';
-console.log(`${x}` `${y}`);
+console.log(`${x} ${y}`);
 
 //Zadanie 2
 const multiply = (a, b = 1) => a*b;
