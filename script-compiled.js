@@ -1,13 +1,9 @@
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']);
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
 //Zadanie 1
 var x = 'Hello';
 var y = 'World!';
-console.log(('' + x)(_templateObject, y));
+console.log(x + ' ' + y);
 
 //Zadanie 2
 var multiply = function multiply(a) {
